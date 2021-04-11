@@ -4,3 +4,4 @@ language: swift
 podfile: Pokemon/Podfile
 xcode_workspace: Pokemon/Pokemon.xcworkspace
 xcode_scheme: Pokemon
+script: sed -i '' 's/ProvisioningStyle = Automatic;/ProvisioningStyle = Manual;/' Pokemon/Pokemon.xcodeproj/project.pbxproj
