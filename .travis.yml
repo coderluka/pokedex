@@ -1,6 +1,7 @@
 os: osx
 osx_image: xcode12.2
 language: swift
+
 podfile: Pokemon/Podfile
 xcode_workspace: Pokemon/Pokemon.xcworkspace
 xcode_scheme: Pokemon
