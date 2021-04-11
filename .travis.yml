@@ -2,6 +2,6 @@ os: osx
 osx_image: xcode12.2
 language: swift
 podfile: Pokemon/Podfile
-xcode_workspace: Pokemon.xcodeworkspace
+xcode_workspace: Pokemon.xcworkspace
 xcode_scheme: Pokemon
 xcode_destination: platform=iOS Simulator,name=iPhone SE (2nd generation),OS=14.3
