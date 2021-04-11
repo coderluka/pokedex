@@ -1,17 +1,7 @@
 os: osx
 osx_image: xcode12.2
 language: swift
-
-swift:
-  - 5.3.x
-  
 podfile: Pokemon/Podfile
-
-script:
-  # Test the code
-  - swiftlint
-  - sed -i '' 's/ProvisioningStyle = Automatic;/ProvisioningStyle = Manual;/' Pokemon.xcodeproj/project.pbxproj
-
 xcode_workspace: Pokemon.xcodeworkspace
 xcode_scheme: Pokemon
 xcode_destination: platform=iOS Simulator,name=iPhone SE (2nd generation),OS=14.3
