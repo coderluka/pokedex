@@ -1,6 +1,7 @@
 # README #
 
 ### Build Status ###
+[![Build Status](https://travis-ci.com/mccdci/pokemon.svg?branch=main)](https://travis-ci.com/mccdci/pokemon)
 
 In order to fully understand and experience this subject as well as completely grasp how wide-spread it (is and) can be, an example project will be documented on the following pages.
 
