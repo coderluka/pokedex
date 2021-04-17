@@ -6,7 +6,7 @@ podfile: Pokemon/Podfile
 xcode_workspace: Pokemon/Pokemon.xcworkspace
 xcode_scheme: Pokemon
 script:
-	# automatic signing
-	- sed -i '' 's/ProvisioningStyle = Automatic;/ProvisioningStyle = Manual;/' Pokemon/Pokemon.xcodeproj/project.pbxproj
-	# run the tests
-	- set -o pipefail && xcodebuild -workspace Pokemon/Pokemon.xcworkspace -scheme Pokemon build test | xcpretty
+    # automatic signing
+    - sed -i '' 's/ProvisioningStyle = Automatic;/ProvisioningStyle = Manual;/' Pokemon/Pokemon.xcodeproj/project.pbxproj
+    # run the tests
+    - set -o pipefail && xcodebuild -workspace Pokemon/Pokemon.xcworkspace -scheme Pokemon build test | xcpretty
