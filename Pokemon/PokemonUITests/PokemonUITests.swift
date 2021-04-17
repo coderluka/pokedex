@@ -66,10 +66,10 @@ class PokemonUITests: XCTestCase {
         
         // open keyboard by tapping the element until it appears (is ready)
         mailTxt.tap()
-        
         // send text to the located fields
         mailTxt.typeText("Ash@Ketchup.com")
         
+        app.tap()
         passTxt.tap()
         passTxt.typeText("1234567890")
         
