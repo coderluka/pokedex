@@ -51,6 +51,10 @@ workflows:
         - scheme: $BITRISE_SCHEME
     - deploy-to-bitrise-io@1: {}
     - cache-push@2: {}
+    - deploy-to-itunesconnect-deliver@2:
+        inputs:
+        - password: $APPLE_KEY
+        - itunescon_user: $APPLE_ID
 app:
   envs:
   - opts:
