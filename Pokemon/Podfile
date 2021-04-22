@@ -15,3 +15,18 @@ target 'Pokemon' do
   # https://firebase.google.com/docs/ios/setup#available-pods
 
 end
+
+target 'PokemonUnitTests' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for Pokemon
+  # add the Firebase pod for Google Analytics
+  pod 'Firebase/Analytics'
+  # Authentication pod
+  pod 'Firebase/Auth'
+  pod 'Firebase/Firestore'
+  pod 'FirebaseFirestoreSwift'
+  # https://firebase.google.com/docs/ios/setup#available-pods
+
+end

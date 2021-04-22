@@ -2,6 +2,7 @@
 
 ### Build Status ###
 [![Build Status](https://travis-ci.com/coderluka/pokedex.svg?branch=main)](https://travis-ci.com/coderluka/pokedex)
+[![Build Status](https://app.bitrise.io/app/86c6ab8fd696c2d3/status.svg?token=1BpEPjgjHnMMwMWXGv907g&branch=main)](https://app.bitrise.io/app/86c6ab8fd696c2d3)
 
 In order to fully understand and experience this subject as well as completely grasp how wide-spread it (is and) can be, an example project will be documented on the following pages.
 

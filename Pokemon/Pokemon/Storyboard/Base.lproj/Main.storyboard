@@ -272,7 +272,7 @@
         <!--Login-->
         <scene sceneID="vWH-cd-WTK">
             <objects>
-                <viewController title="Login" id="fap-Zv-TDv" customClass="LoginViewController" customModule="Pokemon" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="loginVC" title="Login" useStoryboardIdentifierAsRestorationIdentifier="YES" id="fap-Zv-TDv" customClass="LoginViewController" customModule="Pokemon" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="7T7-mg-vVx">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
