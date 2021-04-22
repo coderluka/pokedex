@@ -49,8 +49,12 @@ workflows:
         inputs:
         - project_path: $BITRISE_PROJECT_PATH
         - scheme: $BITRISE_SCHEME
-    - xcode-archive@3: {}
-    - export-xcarchive@3: {}
+    - xcode-archive@3:
+        inputs:
+        - export_method: development
+    - export-xcarchive@3:
+        inputs:
+        - export_method: development
     - deploy-to-bitrise-io@1: {}
     - cache-push@2: {}
 app:
