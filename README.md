@@ -1,7 +1,7 @@
 # README #
 
 ### Build Status ###
-[![Build Status](https://travis-ci.com/mccdci/pokemon.svg?branch=main)](https://travis-ci.com/mccdci/pokemon)
+[![Build Status](https://travis-ci.com/coderluka/pokedex.svg?branch=main)](https://travis-ci.com/coderluka/pokedex)
 
 In order to fully understand and experience this subject as well as completely grasp how wide-spread it (is and) can be, an example project will be documented on the following pages.
 
@@ -29,6 +29,3 @@ As for the tools used to create the pipeline, they include, but are not limited 
 Start by cloning the project’s repository from bitbucket:
 
 remember to change the ‘USERNAME’ with your account name
-
-​git clone https://USERNAME@bitbucket.org/mccdci/pokemon-pipeline.git​
-
